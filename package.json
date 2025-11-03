@@ -1,0 +1,50 @@
+{
+  "name": "deepslime-theme",
+  "displayName": "Deepslime",
+  "description": "A dark, sophisticated theme with desaturated neon colors and deep magenta-tinted backgrounds for reduced eye strain",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "author": {
+    "name": "Katherine Aurelia"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color-theme",
+    "purple",
+    "magenta",
+    "vaporwave",
+    "neon",
+    "desaturated",
+    "low-contrast"
+  ],
+  "galleryBanner": {
+    "color": "#12091A",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Deepslime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deepslime-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wintryKat/vsc-theme-deepslime"
+  },
+  "bugs": {
+    "url": "https://github.com/wintryKat/vsc-theme-deepslime/issues"
+  },
+  "homepage": "https://github.com/wintryKat/vsc-theme-deepslime#readme"
+}
